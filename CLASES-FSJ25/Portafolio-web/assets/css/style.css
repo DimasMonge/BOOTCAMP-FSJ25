@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: rgb(0, 0, 0) !important;
+    color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
+}   
+
+/*---Header Section---*/
+
+.header .navbar .logo h2{
+    font-size: 2.5em !important;
+    text-shadow: 3px -15px 5px rgb(255, 1, 1), -4px -4px 10px rgb(41, 2, 2);
+}
+
+.header .navbar .logo h2 span{
+    color: rgba(255, 255, 255, 0.925);
+    text-shadow: 3px 15px 5px rgb(255, 1, 1), -4px -4px 10px rgb(41, 2, 2);
+}
+
+.header .navbar .menu-navbar {
+    /*Se le asigna el width para que tenga espacio para que se expanda, para espaciar las cosas (tenia un espacio reducido)*/
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.header .navbar .menu-navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+/*---Main Section---*/
+
+.main-content{
+    display: grid;
+    /*---Jugar para que siempre sean 12, por ej 3 3 3---*/
+    grid-template-columns: 4fr 4fr;
+    gap: 9rem;
+    align-items: center;
+    height: 400px;
+}
+.main-content .btn-danger{
+    background-color: rgb(255, 1, 1) !important;
+}
+
+.main-content .img-container img{
+    width: 30vw;
+}
+

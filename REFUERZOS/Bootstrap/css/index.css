@@ -1,0 +1,39 @@
+.container-header{
+    background-color: #ff4c68;
+    overflow: hidden;
+}
+
+.navbar{
+    background-color: #ff4c68 !important;
+}
+
+
+.title-section{
+    padding-top: 20px;
+    background-color: #ff4c68;
+    height: 300px;
+    /*Controla lo que ocurre cuando el contenido de un elemento se desborda del área visible de ese elemento. Hidden Oculta cualquier contenido que se desborde del contenedor*/
+    overflow: hidden;
+    
+}
+
+
+.title-section h1{
+    color: white;
+}
+
+.logo-welcome{
+    margin-top: 40px;
+    width: 200px;
+    transform: rotate(25deg);
+}
+
+.feature-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.color-icons{
+    color: #fc778b;
+}

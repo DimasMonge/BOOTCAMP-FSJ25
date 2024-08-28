@@ -1,0 +1,68 @@
+/*Header*/
+.container-header{
+    background-color: rgb(136, 25, 25) !important;
+    
+}
+.navbar-primary{
+    height: 73px;
+}
+
+.container-header .container-img .img-logo {
+    width: 40px;
+}
+
+.container-header .container-fluid form{
+    width: 60vw !important;
+}
+
+.container-header .navbar-secundary{
+    background-color: rgb(241, 241, 241) !important;
+}
+
+
+
+/*Main*/
+
+.container-main .container-banner .banner-info{
+    width: 100%;
+}
+
+/*arreglar despues (ver video)*/
+
+#carouselExampleIndicators #compra-ya {
+    position: absolute;
+    top: 50%; /* Centra verticalmente el botón */
+    left: 50%; /* Centra horizontalmente el botón */
+    transform: translate(-50%, -50%); /* Mantiene el botón centrado incluso en pantallas más pequeñas */
+    z-index: 10; /* Asegura que el botón esté por encima del carousel */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    font-size: 1rem; /* Tamaño de fuente ajustable */
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+}
+
+.container-main .container-cards .card-tecnology .img{
+    width: 170px;
+    height: 155px;
+}
+
+.container-main .container-cards .card-tecnology h5{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*Footer*/
+
+.container-footer{
+    background-color: gray;
+    height: 360px;
+}
+
+
+.container-footer .redes-sociales svg{
+    width: 25px;
+    height: 25px;
+}
+
+
+

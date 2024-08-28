@@ -1,0 +1,86 @@
+.header-container h3{
+    font-size: 23px;
+    text-align: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-logo{
+    height: 50vh;
+}
+
+.info-container .titulo {
+    padding-left: 3vw;
+    font-size: 26px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    column-gap: 20px;
+}
+
+.card-prep , .card-cook, .card-total{
+    background-color: rgb(230, 230, 230);
+    width: 500px;
+    border-radius: 20px;
+    height: 17vh;
+}
+
+.card-container h1{
+    padding-left: 3vh;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+.card-container h3{
+    padding-left: 3vh;
+    padding-top: 1.0vh;
+    margin-bottom: 0px;
+    font: normal;
+}
+
+.main-container{
+    padding-left: 2.5vw;
+}
+.main-container h1{
+    font-size: 26px;
+}
+
+.main-container article ul{
+    padding: 0px;   
+}
+
+.main-container article  ul li{
+    list-style-type: none;
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.main-container .ingredients-container .text-strong{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.main-container .ingredients-container .text-size{
+    font-size: 19px;
+    margin-top: 0px;
+}
+
+@media (min-width: 425px) and (max-width: 612px){
+    .header-container h3{
+        text-align: center;
+        padding-left: 0px;  
+    }
+
+    .titulo{
+        text-align: center;
+        padding-left: 0px !important;
+    }
+}
+
