@@ -15,7 +15,7 @@
 }
 
 .container-header .container-fluid .form-control{
-    background-color: rgb(255, 237, 237);
+    background-color: rgb(241, 241, 241);
 }
 
 .container-header .navbar-primary svg{
@@ -26,6 +26,11 @@
 
 .container-header .navbar-secundary{
     background-color: rgb(241, 241, 241) !important;
+}
+
+.container-header .navbar-secundary a{
+    color:  rgb(128, 31, 31) !important;
+    font-weight: 500;
 }
 
 
@@ -49,14 +54,20 @@
     white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
 }
 
+.container-main .container-cards{
+    height: 600px;
+}
+
 .container-main .container-cards .card-ropa{
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 2fr 1fr 2fr;
 }
 
 .container-main .container-cards .card-ropa-center{
     grid-template-columns: 1fr;
+    gap: 10px;
 }
+
 
 .container-main .container-cards .card-tecnology .img{
     width: 170px;
