@@ -54,10 +54,8 @@
     white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
 }
 
-.container-main .container-cards{
-    height: 600px;
-}
 
+/* Main card-ropa */
 .container-main .container-cards .card-ropa{
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
@@ -68,8 +66,13 @@
     gap: 10px;
 }
 
+/* Main card-tecnology */
 
-.container-main .container-cards .card-tecnology .img{
+.container-main .container-cards .card-tecnology{
+    height: auto;
+}
+
+.container-main .container-cards .card-tecnology img{
     width: 170px;
     height: 155px;
 }
