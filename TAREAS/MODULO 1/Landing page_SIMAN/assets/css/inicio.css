@@ -12,14 +12,15 @@
 
 .container-header .container-fluid form{
     width: 50vw !important;
+    transition: 0.4s; 
 }
 
 .container-header .container-fluid .form-control{
-    background-color: rgb(241, 241, 241);
+    background-color: rgb(255, 255, 255);
 }
 
 .container-header .navbar-primary svg{
-    color: rgb(155, 29, 29);
+    color: rgb(202, 77, 77);
     margin: 0px 1vw 0px 1vw ;
     
 }
@@ -29,7 +30,7 @@
 }
 
 .container-header .navbar-secundary a{
-    color:  rgb(128, 31, 31) !important;
+    color:  rgb(48, 0, 0) !important;
     font-weight: 500;
 }
 
@@ -88,14 +89,30 @@
 /*Footer*/
 
 .container-footer{
-    background-color: gray;
-    height: 360px;
+    background-color: rgb(163, 50, 50);
+    color: white;
+    height: auto;
 }
-
 
 .container-footer .redes-sociales svg{
     width: 25px;
     height: 25px;
+}
+
+.container-footer .info-suscribir{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container-footer .info-suscribir form{
+    margin-left: 180px;
+}
+
+.container-footer .info a{
+    text-decoration: none;
+    color: white;
+    display: block; /* Hace que los enlaces ocupen todo el ancho de su contenedor */
+    padding: 5px;
 }
 
 
