@@ -55,7 +55,7 @@
 }
 
 
-/* Main card-ropa */
+/* Main card ropa*/
 .container-main .container-cards .card-ropa{
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
@@ -66,10 +66,10 @@
     gap: 10px;
 }
 
-/* Main card-tecnology */
+/* Main card tecnology*/
 
 .container-main .container-cards .card-tecnology{
-    height: auto;
+    height: auto;   
 }
 
 .container-main .container-cards .card-tecnology img{
@@ -82,6 +82,9 @@
     padding-top: 30px;
     margin-bottom: 30px;
 }
+
+/* Main card hogar*/
+
 
 /*Footer*/
 
