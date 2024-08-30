@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 /*Header*/
 .container-header{
     background-color: rgb(255, 255, 255) !important;
+    font-family: "Crimson Text", serif;
 }
+
 .container-header .navbar-primary{
     height: 73px;
 }
@@ -34,7 +38,6 @@
     font-weight: 500;
 }
 
-
 /*Main*/
 
 
@@ -52,6 +55,7 @@
     background-color: rgb(163, 50, 50);
     color: white;
     height: auto;
+    font-family: "Playfair Display", system-ui;
 }
 
 .container-footer .redes-sociales svg{
@@ -59,13 +63,17 @@
     height: 25px;
 }
 
+.container-footer .info-suscribir .suscribir{
+    width: 45vw;
+}
+
 .container-footer .info-suscribir{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .container-footer .info-suscribir form{
-    margin-left: 180px;
+    margin-left: 150px;
 }
 
 .container-footer .info a{
@@ -74,5 +82,7 @@
     display: block; /* Hace que los enlaces ocupen todo el ancho de su contenedor */
     padding: 5px;
 }
+
+
 
 
