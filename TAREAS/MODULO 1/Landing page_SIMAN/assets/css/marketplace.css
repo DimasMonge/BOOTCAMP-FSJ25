@@ -36,12 +36,14 @@
 
 
 /*Main*/
+
+
 .container-main .container-cardcarousel  .carousel img{
     height: 20rem;
 }
 
 .container-main .banner-container img{
-    width: 99vw;
+    width: 98.7vw;
 }
 
 /*Footer*/
