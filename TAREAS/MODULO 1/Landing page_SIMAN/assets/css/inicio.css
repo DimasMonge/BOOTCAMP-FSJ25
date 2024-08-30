@@ -16,7 +16,7 @@
 
 .container-header .container-fluid form{
     width: 50vw !important;
-    transition: 0.4s; 
+    transition: 0.4s;
 }
 
 .container-header .container-fluid .form-control{
@@ -26,29 +26,45 @@
 .container-header .navbar-primary svg{
     color: rgb(202, 77, 77);
     margin: 0px 1vw 0px 1vw ;
-    
+
 }
 
 .container-header .navbar-secundary{
     background-color: rgb(241, 241, 241) !important;
 }
 
-.container-header .navbar-secundary a{
-    color:  rgb(48, 0, 0) !important;
-    font-weight: 500;
+.container-header .navbar-secundary #text-inicio{
+    text-decoration: underline;
+    text-decoration-color: rgb(117, 43, 43);
 }
 
+.container-header .navbar-secundary a{
+    color:  rgb(122, 25, 25) !important;
+    font-weight: 500;
+    transition: 0.8;
+}
 
+.container-header .navbar-secundary a:hover{
+    transform: scale(1.05);
+    transition: 0.8;
+}
 
 /*Main*/
 .container-main{
     font-family: "Playfair Display", system-ui;
 }
 
+.container-main .card{
+    border: 2px solid #ffffff;
+}
+
 .container-main h1{
+    color: rgb(163, 50, 50);
     font-family: "Bona Nova SC", serif;
     font-weight: 500;
     font-style: normal;
+    /* text-shadow: 0 0 10px #ff0505, 0 0 50px #ff0000, 0 0 50px #ff0000; */
+
 }
 
 .container-main .container-banner .banner-info{
@@ -57,15 +73,11 @@
 
 /*arreglar despues (ver video)*/
 
-#carouselExampleIndicators #compra-ya {
-    position: absolute;
-    top: 50%; /* Centra verticalmente el botón */
-    left: 50%; /* Centra horizontalmente el botón */
-    transform: translate(-50%, -50%); /* Mantiene el botón centrado incluso en pantallas más pequeñas */
-    z-index: 10; /* Asegura que el botón esté por encima del carousel */
-    padding: 10px 20px; /* Espaciado interno del botón */
-    font-size: 1rem; /* Tamaño de fuente ajustable */
-    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+.container-main .carousel #compra-ya{
+    position: relative;
+    z-index: 10;
+    top: 5vw;
+    left: 2vw;
 }
 
 
@@ -88,7 +100,7 @@
 /* Main card tecnology*/
 
 .container-main .container-cards .card-tecnology{
-    height: auto;   
+    height: auto;
 }
 
 .container-main .container-cards .card-tecnology img{

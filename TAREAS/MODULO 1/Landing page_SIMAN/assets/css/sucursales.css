@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-
 /*Header*/
 .container-header{
     background-color: rgb(255, 255, 255) !important;
@@ -17,7 +16,7 @@
 
 .container-header .container-fluid form{
     width: 50vw !important;
-    transition: 0.4s; 
+    transition: 0.4s;
 }
 
 .container-header .container-fluid .form-control{
@@ -27,18 +26,28 @@
 .container-header .navbar-primary svg{
     color: rgb(202, 77, 77);
     margin: 0px 1vw 0px 1vw ;
-    
+
 }
 
 .container-header .navbar-secundary{
     background-color: rgb(241, 241, 241) !important;
 }
 
-.container-header .navbar-secundary a{
-    color:  rgb(48, 0, 0) !important;
-    font-weight: 500;
+.container-header .navbar-secundary #text-sucursales{
+    text-decoration: underline;
+    text-decoration-color: rgb(117, 43, 43);
 }
 
+.container-header .navbar-secundary a{
+    color:  rgb(122, 25, 25) !important;
+    font-weight: 500;
+    transition: 0.8;
+}
+
+.container-header .navbar-secundary a:hover{
+    transform: scale(1.05);
+    transition: 0.8;
+}
 
 /* Main */
 
