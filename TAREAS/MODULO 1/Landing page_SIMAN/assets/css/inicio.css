@@ -16,7 +16,7 @@
 }
 
 .container-header .container-fluid .form-control{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(238, 238, 238);
 }
 
 .container-header .navbar-primary svg{
@@ -67,6 +67,7 @@
     gap: 10px;
 }
 
+
 /* Main card tecnology*/
 
 .container-main .container-cards .card-tecnology{
@@ -76,6 +77,11 @@
 .container-main .container-cards .card-tecnology img{
     width: 170px;
     height: 155px;
+}
+
+.container-main .container-cards .card-tecnology a{
+    text-decoration: none;
+    color: black;
 }
 
 .container-main .container-cards .card-tecnology h5{

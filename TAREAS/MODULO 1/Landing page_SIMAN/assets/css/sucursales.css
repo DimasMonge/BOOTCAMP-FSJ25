@@ -16,13 +16,12 @@
 }
 
 .container-header .container-fluid .form-control{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(238, 238, 238);
 }
 
 .container-header .navbar-primary svg{
     color: rgb(202, 77, 77);
-    margin: 0px 1vw 0px 1vw ;
-    
+    margin: 0px 1vw 0px 1vw ; 
 }
 
 .container-header .navbar-secundary{
@@ -36,9 +35,6 @@
 
 /* Main */
 
-.container-main .card{
-    
-}
 
 /*Footer*/
 
