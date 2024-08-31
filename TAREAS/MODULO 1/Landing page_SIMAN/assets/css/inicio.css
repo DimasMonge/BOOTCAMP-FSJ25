@@ -117,7 +117,9 @@
 }
 
 /* Main card hogar */
-
+.container-main .container-cards .card-hogar{
+    width: 100%;
+}
 
 
 /*Footer*/
