@@ -51,7 +51,15 @@
 
 
 /*Main*/
+.container-main{
+    font-family: "Playfair Display", system-ui;
+}
 
+.container-main .card-registro h5{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+    font-style: normal; 
+}
 
 .container-main .container-cardcarousel  .carousel img{
     height: 20rem;

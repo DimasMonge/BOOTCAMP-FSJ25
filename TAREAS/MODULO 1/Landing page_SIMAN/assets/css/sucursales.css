@@ -51,6 +51,16 @@
 
 /* Main */
 
+.container-main{
+    font-family: "Playfair Display", system-ui;
+}
+
+.container-main .info-sucursales .card-title{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 500;
+    font-style: normal; 
+}
+
 
 
 /*Footer*/
