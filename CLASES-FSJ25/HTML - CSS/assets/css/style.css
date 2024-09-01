@@ -70,8 +70,8 @@ body{
 }
 
 .container .main-container .main-text-container h1:hover{
-  text-shadow: 0.05em 0.05em rgb(230, 80, 80);
-  transition: 0.3s;
+    text-shadow: 0.05em 0.05em rgb(230, 80, 80);
+    transition: 0.3s;
 }
 
 .container .main-container .main-text-container article{

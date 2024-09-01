@@ -156,10 +156,16 @@
     padding: 5px;
 }
 
-/* Responsividad */
+/* ---Responsividad--- */
 
 @media (min-width: 1024px) and (max-width: 1300px){
 
+    /* Header */
+    .container-header .navbar-primary .img-logo {
+        width: 12vw;
+    }
+
+    /* Main */
     .container-main .container-cards .card-ropa-center  {
         gap: 0px !important;
     }
@@ -174,15 +180,182 @@
         max-width: 100%
     }
 
+    /* Footer */
     .container-footer .info-suscribir form{
         margin: 15%;
+        margin-bottom: 0px;
     }
 
-    .container-footer .info a{
-        text-decoration: none;
-        color: white;
-        margin: 0 none!important;
-        display: block; /* Hace que los enlaces ocupen todo el ancho de su contenedor */
-        padding: none!important;
+    .container-footer .info-suscribir .info{
+        margin-right: 0px !important;
+    }
+}
+
+@media (min-width:862px ) and (max-width: 1025px) {
+
+    /* Header */
+    .container-header .navbar-primary{
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+    .container-header .navbar-primary .img-logo{
+        margin-left: 10px;
+        width: 15vw;
+    }
+
+    /* Main */
+    .container-main .container-cards .card-ropa{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .container-main .container-cards .card-ropa .card-ropa-mujer{
+        height: 30%;
+    }
+
+    .container-main .container-cards .card-ropa .card-ropa-hombre{
+        height: 30%;
+    }
+
+    .container-main .container-cards .card-ropa h3 {
+        font-size: 20px;
+    }
+    .container-main .container-cards .card-tecnology {
+        flex-wrap: wrap;
+    }
+
+    /* Footer */
+    .container-footer .info-suscribir form{
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .container-footer .info-suscribir .info{
+        margin-right: 0px !important;
+        padding-right: 25px !important;
+    }
+}
+
+@media (min-width:635px) and (max-width:862px){
+
+    /* Header */
+    .container-header .navbar-primary .img-logo{
+        margin-left: 10px;
+        width: 15vw;
+    }
+
+    /* Main */
+    .container-main .container-cards .card-ropa{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .container-main .container-cards .card-ropa .card-ropa-mujer{
+        height: 30%;
+    }
+
+    .container-main .container-cards .card-ropa .card-ropa-hombre{
+        height: 30%;
+    }
+
+    .container-main .container-cards .card-ropa h3 {
+        font-size: 18px;
+    }
+    .container-main .container-cards .card-tecnology {
+        flex-wrap: wrap;
+    }
+
+    /* Footer */
+    .container-footer .info-suscribir{
+        display: grid;
+        grid-template-columns: 12fr !important;
+    }
+
+    .container-footer .info-suscribir .suscribir{
+        width: auto;
+    }
+
+    .container-footer .info-suscribir form{
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .container-footer .info-suscribir .info{
+        margin-right: 5vw !important;
+        margin-left: 5vw;
+        padding-right: 0px !important;
+    }
+}
+
+@media (min-width:425px) and (max-width:635px){
+
+    .container-main .carousel #compra-ya{
+        position: absolute;
+        z-index: 10;
+        top: 27vw;
+        left: 2vw;
+    }
+
+    .container-main .container-cards .card-ropa{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .container-main .container-cards .card-ropa .card-ropa-mujer{
+        height: 30%;
+    }
+
+    .container-main .container-cards .card-ropa .card-ropa-hombre{
+        height: 30%;
+    }
+
+    .container-main .container-cards .card-ropa h3 {
+        font-size: 18px;
+    }
+    .container-main .container-cards .card-tecnology {
+        flex-wrap: wrap;
+    }
+    .container-main .container-cards .card-tecnology img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .container-main .container-cards .card-hogar{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+        margin-left: 15px;
+        max-width: auto;
+    }
+
+    .container-main .container-cards .card-hogar .card{
+        width: 350px;
+        
+    }
+
+    /* Footer */
+    .container-footer .info-suscribir{
+        display: grid;
+        grid-template-columns: 12fr !important;
+    }
+
+    .container-footer .info-suscribir .suscribir{
+        width: auto;
+    }
+
+    .container-footer .info-suscribir form{
+        justify-content: center;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+
+    .container-footer .info-suscribir .info{
+        margin-right: 5vw !important;
+        margin-left: 5vw;
+        padding-right: 0px !important;
     }
 }
