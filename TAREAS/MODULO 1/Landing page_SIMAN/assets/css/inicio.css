@@ -158,4 +158,31 @@
 
 /* Responsividad */
 
-sos
+@media (min-width: 1024px) and (max-width: 1300px){
+
+    .container-main .container-cards .card-ropa-center  {
+        gap: 0px !important;
+    }
+
+    .container-main .container-cards .card-tecnology{
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .container-main .container-cards .card-tecnology img{
+        height: 120px;   
+        max-width: 100%
+    }
+
+    .container-footer .info-suscribir form{
+        margin: 15%;
+    }
+
+    .container-footer .info a{
+        text-decoration: none;
+        color: white;
+        margin: 0 none!important;
+        display: block; /* Hace que los enlaces ocupen todo el ancho de su contenedor */
+        padding: none!important;
+    }
+}
