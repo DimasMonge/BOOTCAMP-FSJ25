@@ -54,6 +54,20 @@
     font-family: "Playfair Display", system-ui;
 }
 
+.container-main .boton-preguntas{
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;        
+    height: 50px; 
+    color: rgb(163, 50, 50);
+    outline: none;
+    border: none;
+    position: fixed;
+    z-index: 10;
+    margin-left: 90vw;
+    margin-top: 65vh;
+}
+
 .container-main .card{
     border: 2px solid #ffffff;
 }
@@ -166,6 +180,7 @@
     }
 
     /* Main */
+
     .container-main .container-cards .card-ropa-center  {
         gap: 0px !important;
     }
