@@ -273,6 +273,11 @@
     .container-main .container-cards .card-tecnology {
         flex-wrap: wrap;
     }
+    
+    .container-main .container-cards .card-hogar h4{
+        font-size: 1.1rem;
+        margin-bottom: 0px;
+    }
 
     /* Footer */
     .container-footer .info-suscribir{
@@ -364,8 +369,8 @@
     }
 
     .container-footer .info-suscribir .info{
-        margin-right: 5vw !important;
-        margin-left: 5vw;
+        margin-right: 0vw;
+        margin-left: 0vw;
         padding-right: 0px !important;
     }
 }

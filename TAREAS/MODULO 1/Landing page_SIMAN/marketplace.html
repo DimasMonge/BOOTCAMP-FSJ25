@@ -32,24 +32,14 @@
             </nav>
             <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-secundary">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="container-button" >
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+        
                     <div class="collapse navbar-collapse"  id="navbarTogglerDemo03">
                         
-                        <!--Para centrar el contenido del ul dentro de la barra de navegación en Bootstrap, hay varios aspectos que considerar, especialmente cuando se usa d-flex y justify-content-center. A continuación, te explico lo que sucede y cómo puedes solucionarlo.
-
-                        Problema con d-flex y justify-content-center
-                        El problema radica en cómo Bootstrap maneja el contenedor y la barra de navegación:
-
-                        Ancho del contenedor: El container-fluid se expande para ocupar todo el ancho de la pantalla, pero el div que contiene el ul puede no estar ocupando todo el ancho disponible, lo que impide que justify-content-center funcione como esperas.
-                        
-                        Solución
-                        Para centrar los elementos de la navegación (ul) horizontalmente dentro de la barra de navegación, puedes intentar las siguientes soluciones:
-
-                        1. Aplicar mx-auto en el ul
-                        La clase mx-auto aplicará un margen automático a ambos lados del ul, centrándolo horizontalmente dentro del contenedor.
-                        -->
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-5">
                             <li class="nav-item">
                                 <h5 id="text-inicio" ><a class="nav-link active" aria-current="page" href="/inicio.html">Inicio</a></h5>
@@ -166,8 +156,6 @@
                     <h5><small>Suscribete para obtener las mejores ofertas</small></h5>
                     <form class="row g-0 mt-4">
                         <div class="col-auto">
-                        </div>
-                        <div class="col-auto">
                             <label for="inputPassword2" class="visually-hidden">e-mail</label>
                             <input type="password" class="form-control" id="inputPassword2" placeholder="e-mail">
                         </div>
@@ -183,7 +171,7 @@
                     </div>
                 </section>
     
-                <section class="d-flex justify-content-between me-5 pe-5 mt-5 info">
+                <section class="info d-flex justify-content-between me-5 pe-5 mt-5">
                     <div>
                         <h5 class="text-center">Siman Corporativo</h5>
                         <ul>
