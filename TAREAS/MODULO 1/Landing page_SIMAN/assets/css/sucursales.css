@@ -55,6 +55,11 @@
     font-family: "Playfair Display", system-ui;
 }
 
+.container-main .banner img{
+    max-width: 100%;
+    height: auto; 
+}
+
 .container-main .info-sucursales .card-title{
     font-family: "Bona Nova SC", serif;
     font-weight: 500;
@@ -106,6 +111,12 @@
         width: 12vw;
     }
 
+    /* Main */
+    .container-main .banner img{
+        max-width: 100%;
+        height: auto; 
+    }
+
     /* Footer */
     .container-footer .info-suscribir form{
         margin: 15%;
@@ -117,7 +128,7 @@
     }
 }
 
-@media (min-width:862px ) and (max-width: 1025px) {
+@media (min-width:862px) and (max-width: 1025px) {
 
     /* Header */
     .container-header .navbar-primary{
@@ -131,6 +142,11 @@
         width: 15vw;
     }
 
+    /* Main */
+    .container-main .banner img{
+        max-width: 100%;
+        height: auto; 
+    }
 
     /* Footer */
     .container-footer .info-suscribir form{
@@ -159,8 +175,7 @@
         width: 15vw;
     }
 
-    /* Footer */
-    .container-footer .info-suscribir{
+    .container-main .banner img{
         display: grid;
         grid-template-columns: 12fr !important;
     }
@@ -183,6 +198,12 @@
 }
 
 @media (min-width:425px) and (max-width:635px){
+
+     /* Main */
+    .container-main .banner img{
+        max-width: 100%;
+        height: auto; 
+    }
 
     /* Footer */
     .container-footer .info-suscribir{
