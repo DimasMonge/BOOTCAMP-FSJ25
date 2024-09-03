@@ -242,6 +242,12 @@
 @media (min-width:635px) and (max-width:862px){
 
     /* Header */
+    .container-header .navbar-primary{
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 100%;
+    }
+
     .container-header .navbar-primary .img-logo{
         margin-left: 10px;
         width: 15vw;
@@ -293,6 +299,7 @@
 
 @media (min-width:425px) and (max-width:635px){
 
+    /* Main */
     .container-main .carousel #compra-ya{
         position: absolute;
         z-index: 10;
@@ -301,40 +308,43 @@
     }
 
     .container-main .container-cards .card-ropa{
-        display: grid;
         grid-template-columns: 2fr 2fr;
     }
 
-    .container-main .container-cards .card-ropa .card-ropa-mujer{
+    .container-main .container-cards .card-ropa .card-ropa-mujer,
+    .container-main .container-cards .card-ropa .card-ropa-hombre {
         height: 30%;
     }
-
-    .container-main .container-cards .card-ropa .card-ropa-hombre{
-        height: 30%;
-    }
-
     .container-main .container-cards .card-ropa h3 {
         font-size: 18px;
     }
+
     .container-main .container-cards .card-tecnology {
         flex-wrap: wrap;
     }
+
     .container-main .container-cards .card-tecnology img{
         width: 80px;
         height: 80px;
+    }
+
+    .container-main .container-cards .title-hogar{
+        margin-bottom: 0px !important;
     }
 
     .container-main .container-cards .card-hogar{
         display: grid;
         grid-template-columns: 1fr;
         gap: 0;
-        margin-left: 15px;
-        max-width: auto;
     }
 
-    .container-main .container-cards .card-hogar .card{
-        width: 350px;
-        
+    .container-main .container-cards .card-hogar .card img{
+        width: 300px;
+    }
+
+    .container-main .container-cards .card-hogar .card-title{
+        width: 200px;
+        margin: 0px;
     }
 
     /* Footer */
@@ -359,3 +369,142 @@
         padding-right: 0px !important;
     }
 }
+
+@media (max-width: 426px) {
+
+    /* Header */
+    .container-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .container-header .navbar-primary {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .container-header .navbar-primary .img-logo {
+        width: 50%;
+        margin-bottom: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-header .container-fluid form {
+        width: 100%;
+        margin: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-header .navbar-primary svg {
+        margin: 0 5px;
+    }
+
+    .container-header .navbar-secundary .container-button {
+        width: 86vw;
+        display: flex;
+        justify-content: start;
+    }
+
+    /* Main */
+    .container-main .container-cards .card-ropa {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .container-main .container-cards .card-tecnology {
+        flex-wrap: wrap;
+    }
+
+    .container-main .container-cards .card-hogar {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin-left: 0.1%;
+    }
+
+    .container-main .container-cards .card-hogar .card img {
+        width: 90vw;
+        
+    }
+
+    .container-main .container-cards .card-hogar .card-title {
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+
+
+    /* Footer */
+    .container-footer {
+        padding: 20px 5px; 
+        font-size: 12px;
+        text-align: center;
+        background-color: rgb(163, 50, 50);
+    }
+
+    .container-footer .redes-sociales {
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-footer .redes-sociales svg {
+        width: 18px;
+        height: 18px;
+        margin: 0 5px;
+    }
+
+    .container-footer .info-suscribir {
+        display: block;
+        grid-template-columns: 1fr;
+        margin: 10px auto;
+    }
+
+    .container-footer .info-suscribir .suscribir {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .container-footer .info-suscribir .info{
+        margin-right: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .container-footer .info-suscribir .info h5 {
+        font-size: 1.1rem !important;
+    }
+
+    .container-footer .info-suscribir .info ul {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .container-footer .info-suscribir form {
+        width: 100%;    
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .container-footer .info a {
+        display: block;
+        padding: 5px 0; 
+        color: white;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+
+
+
