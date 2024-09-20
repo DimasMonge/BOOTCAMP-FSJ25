@@ -62,25 +62,3 @@ function calcularAumento(nombreTrabajador, salarioActual, categoria) {
 }
 
 calcularAumento("Dimas", 100.00, "B");
-
-// Ejercicio 4: Calcular numero mayor o menor
-// Poner en un archivo aparte?
-
-let numero1 = parseInt(prompt("Ingresa el primer número entero:"));
-let numero2 = parseInt(prompt("Ingresa el segundo número entero:"));
-
-function numMayorOMenor (num1, num2) {
-    if(num1> num2){
-        return `El numero mayor es: ${num1}`
-    }else if (num2 > num1){
-        return `El numero menor es: ${num2}`
-    }else{
-        return "Los dos numeros son iguales"
-    }
-}
-
-alert(numMayorOMenor());
-
-// Ejercicio 5:  
-//Ejercicio 6;s
-

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+
+    <h1>Calculadora de Descuento para Viajes</h1>
+    
+    <form>
+        <label for="origen">Origen:</label>
+        <input type="text" id="origen" placeholder="Introduce la ciudad de origen">
+
+        <label for="destino">Destino:</label>
+        <select id="destino">
+            <option value="La costa del Sol">La costa del Sol</option>
+            <option value="Panchimalco">Panchimalco</option>
+            <option value="Puerto el Triunfo">Puerto el Triunfo</option>
+        </select>
+        
+        <button type="button" onclick="calcularDescuento()">Calcular Descuento</button>
+    </form>
+
+    <!--Aqui se mostrara el resultado -->
+    <div id="resultado"></div>
+
+    <script src="script_ejer6.js"></script>
+    
+</body>
+</html>
