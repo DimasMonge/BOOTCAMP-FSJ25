@@ -29,7 +29,7 @@ class Person {
         this.dui = duiParam;
     }
 
-    respirar (){
+    respirar (): void{
         console.log("aff");
     }
 
@@ -40,7 +40,15 @@ class Person {
 
     //El parametro ageParam no es el mismo que el del constructor
     setAge (ageParam:number){
-        this.age = ageParam
+        this.age = ageParam;
+    }
+
+    getAge (){
+        return this.age;
+    }
+
+    getDui (){
+        return this.dui;
     }
 }
 
@@ -48,3 +56,37 @@ let personita = new Person ("Dimas Monge", 75, "19102-10");
 //personita.name = "Hector";
 console.log(personita);
 console.log(personita.getName());
+
+
+class Developer extends Person{
+    private exp:number;
+    private techSkills:string[];
+    private softSkills:string[];
+    private gitUser:string;
+    private area:string;
+    private projects:string[];
+
+    constructor (nameParam:string, ageParam:number, duiParam:string, expParam:number, techSkillsParam:string[], softSkillsParam:string[], gitUserParam:string, areaParam:string, projectsParam:string[]){
+        super(nameParam, ageParam, duiParam);
+        this.exp = expParam;
+        this.techSkills = techSkillsParam;
+        this.softSkills = softSkillsParam;
+        this.gitUser = gitUserParam;
+        this.area = areaParam;
+        this.projects = projectsParam;
+    }
+
+    getArea(): string{
+        return this.area;
+    }
+
+    respirar(): void {
+        console.log("Sniff sniff");
+    }
+}
+
+let developersito = new Developer("Will", 19, "12334568", 3, ["javaScript", "HTML", "CSS", "Boostrap", "Typescript"], ["Comunicación efectiva", "Proactico", "Liderazgo", "Autocritica"], "DimasMonge", "Frontend Developer", ["APIS"]);
+developersito.getArea();
+
+personita.respirar();
+developersito.respirar();
