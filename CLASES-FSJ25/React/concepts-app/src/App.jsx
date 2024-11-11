@@ -1,6 +1,7 @@
 import './App.css'
 import { Saludo } from './components/Saludo'
-import {Saludo as Saludito} from './components/Saludo'
+// import {Saludo as Saludito} from './components/Saludo'
+
 
 function App() {
 //Comentarios de una sola linea  
@@ -17,7 +18,8 @@ Ingresar codigo JS en el return del html
 
       {/*LLamada a un componente*/}
       <Saludo/>
-      <Saludito/>
+      {/* <Saludito/> */}
+      
     </div>
   )
 }
