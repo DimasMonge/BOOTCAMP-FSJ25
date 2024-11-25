@@ -21,8 +21,8 @@ export const Saludo = () => {
             <h3>Yo en realidad estoy en el componente Saludo jejox</h3>
             <h2>Hola {nombre}, como estas?</h2>
             <button onClick={() =>{cambiarNombre("Eduardo") }}>MAGIA</button>
-
-            <Chauchis />
+            <img src=""/>
+            <Chauchis nombreUsuario = {nombre} edad ="75"/>
         </>
     )
 } 
